@@ -18,7 +18,7 @@ export async function run() {
     /**
      * Insert your Word code here
      */
-    console.log("hellooooooo");
+    // console.log("hellooooooo");
 
     // insert a paragraph at the end of the document.
     const paragraph = context.document.body.insertParagraph("Hello World", Word.InsertLocation.end);
